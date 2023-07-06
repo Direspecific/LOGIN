@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Have you ever been found guilty of any administrative offense?" />
+
+        <RadioGroup
+            android:id="@+id/administrativeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/administrativeYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/administrativeNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/adminEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Have you been criminally charged before any court?" />
+
+        <RadioGroup
+            android:id="@+id/criminalChargedRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/criminalChargedYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/criminalChargedNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/criminalChargedEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Have you ever been convicted of any crime or violation
+            of any law, decree, ordinance or regulation by any court or tribunal?" />
+
+        <RadioGroup
+            android:id="@+id/convictedRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/convictedYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/convictedNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/convictedEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Pursuant to: (a) Indigenous People's Act (RA 8371);
+            (b) Magna Carta for Disabled Persons (RA 7277); and (c) Solo Parents
+            Welfare Act of 2000 (RA 8972), please answer the following items:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Are you a member of any indigenous group?" />
+
+        <RadioGroup
+            android:id="@+id/indigenousRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/indigenousYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/indigenousNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/indigenousEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Are you a person with disability?" />
+
+        <RadioGroup
+            android:id="@+id/disabilityRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/disabilityYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/disabilityNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/disabilityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Are you a solo parent?" />
+
+        <RadioGroup
+            android:id="@+id/soloParentRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/soloParentYesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/soloParentNoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <EditText
+                android:id="@+id/soloParentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes give details"
+                android:enabled="false" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
