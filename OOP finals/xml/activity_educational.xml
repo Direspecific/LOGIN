@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/elementaryCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elementary"
+            android:onClick="onEducationalAttainmentChecked"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/elementarySchoolTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of School:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/elementarySchoolEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name of school"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/elementaryEducationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Education/degree/course:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/elementaryEducationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter basic education/degree/course"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/secondaryCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary"
+            android:onClick="onEducationalAttainmentChecked"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/secondarySchoolTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of School:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/secondarySchoolEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name of school"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/secondaryEducationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Education/degree/course:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/secondaryEducationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter basic education/degree/course"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/vocationalCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vocational"
+            android:onClick="onEducationalAttainmentChecked"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/vocationalSchoolTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of School:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/vocationalSchoolEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name of school"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/vocationalEducationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Education/degree/course:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/vocationalEducationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter basic education/degree/course"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/graduateCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduate Studies"
+            android:onClick="onEducationalAttainmentChecked"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/graduateSchoolTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of School:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/graduateSchoolEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name of school"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/graduateEducationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Education/degree/course:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/graduateEducationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter basic education/degree/course"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/collegeCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:onClick="onEducationalAttainmentChecked"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/collegeSchoolTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of School:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/collegeSchoolEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter name of school"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/collegeEducationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Education/degree/course:"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/collegeEducationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter basic education/degree/course"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Submit"
+            android:onClick="onSubmitClicked"/>
+
+    </LinearLayout>
+</ScrollView>
